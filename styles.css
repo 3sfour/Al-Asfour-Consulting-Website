@@ -921,6 +921,7 @@ svg {
   display: flex;
   align-items: center;
   justify-content: space-between;
+  gap: 8px 18px;
   border-top: 1px solid var(--line);
   color: var(--muted);
   font-size: 11px;
@@ -1220,6 +1221,8 @@ button:focus-visible {
 
   .footer-bottom {
     min-height: 53px;
+    flex-wrap: wrap;
+    padding-block: 14px;
   }
 }
 
